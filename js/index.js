@@ -1,17 +1,17 @@
 let btnOperaciones = 0;
 
 function incrementar(){
-  updateDisplay(++btnOperaciones);
+  actualizar(++btnOperaciones);
 }
 function neutro(){
   btnOperaciones = 0;
-  updateDisplay(btnOperaciones);
+  actualizar(btnOperaciones);
 
 }
 function descrementar(){
-  updateDisplay(--btnOperaciones);
+  actualizar(--btnOperaciones);
 
 }
-function updateDisplay(val) {
-  document.getElementById("neutro").innerHTML = val;
+function actualizar(contar) {
+  document.getElementById("neutro").innerHTML = contar;
 }
