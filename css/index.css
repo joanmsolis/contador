@@ -1,7 +1,5 @@
 body{
-    background-color: #0e0e0e;
-    
-   
+    background-color: #0e0e0e;  
 }
 .container{
     width: 55%;
@@ -9,8 +7,6 @@ body{
     border-top: solid 1px white;
     margin: 10% 0% 0% 20%;
     border-radius: 5px;
-
-
 }
 .contenedor-principal{
     width: 100%;
@@ -18,14 +14,9 @@ body{
     justify-content: center;
     align-items: center;
     padding: 20% 0% 20% 0%;
-    
- 
 }
 
 .descrementar, .neutro, .incrementar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 50%;
     border: none;
     padding: 10px;
@@ -49,11 +40,9 @@ body{
     font-size: 38px;
 }
 .descrementar{
-
     position: absolute;
     margin-right:8%;
-    margin-top: 5%;
-    
+    margin-top: 5%;    
 }
 .incrementar{
     position: absolute;
