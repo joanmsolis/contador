@@ -49,3 +49,11 @@ body{
     margin-left: 8%;
     margin-top: 5%;
 }
+/* .row{
+    border: 1px solid black;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+.row > div{
+    border: solid 1px rgb(150, 148, 148);
+} */
